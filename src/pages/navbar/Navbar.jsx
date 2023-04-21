@@ -15,7 +15,8 @@ function Navbar() {
 
   return (
     <nav>
-      <div className="container nav_container">      
+      {/* <div className="container nav_container"> */}
+      <div>
         <a href={Logo}>
           <img src={Logo} alt="" />
         </a>
