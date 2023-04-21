@@ -1,8 +1,5 @@
-*{
-    background-color: silver;
-}
-
-h1{
-    background-color: silver;
-    color:red;
-}
+@use './abstracts/' as *;
+@use './base/' as *;
+@use './components/' as *;
+@use './layout/' as *;
+@use './pages/' as * ;
